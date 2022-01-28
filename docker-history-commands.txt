@@ -1,0 +1,76 @@
+ 421  docker ps
+  422  docker images
+  423  docker pull redis
+  424  docker run redis
+  425  docker ps
+  426  docker images
+  427  docker images
+  428  docker images --help
+  429  docker images
+  430  docker run redis
+  431  docker run -d redis
+  432  docker ps -a
+  433  docker images
+  434  docker images -h
+  435  docker images 9b46d8877653 rm
+  436  docker image 9b46d8877653 rm
+  437  docker image rm 9b46d8877653
+  438  docker images
+  439  docker image rm b90f651b9845
+  440  docker images
+  442  docker image rm 9a3ac6ffcacb
+  443  docker images
+  444  docker image rm 7614ae9453d1
+  445  docker ps
+  446  docker ps -a
+  447  docker image rm -f 7614ae9453d1
+  448  docker images
+  449  docker ps -a
+  451  docker run redis -d 
+  452  docker run -d redis
+  453  docker ps
+  457  docker ps
+  458  docker stop fa49ec67f4da
+  459  docker ps
+  460  docker run -p6000:6379 -d fa49ec67f4da
+  461  docker run -p6000:6379 -d redis
+  462  docker ps
+  469  docker run -d redis:4.0
+  470  docker ps
+  471  docker stop redis:4.0
+  472  docker stop redis
+  473  docker stop 7c3def830db4
+  474  docker run -p6000:6379 -d redis:4.0
+  475  docker run -p6001:6379 -d redis:4.0
+  476  docker ps
+  480  docker logs
+  481  docker ps
+  482  docker logs c21f613cc827
+  483  docker logs dazzling_kare
+  484  docker logs happy_leavitt
+  485  docker exec -it happy_leavitt bash
+  486  docker ps
+  487  docker stop happy_leavitt
+  488  docker stop dazzling_kare
+  489  docker ps
+  490  docker run -p6001:6379 -d --name rocky
+  491  docker run -p6001:6379 -d --name rocky redis
+  492  docker ps
+  493  docker exec -it rocky bash
+  494  docker pull mongo
+  495  docker pull mongo-express
+  496   docker network
+  497  docker network ls
+  498  docker network create mongo-network
+  499  docker network ls
+  502  docker network ls
+  503  docker run -d --name mongo -p 27017:27017 --network mongo-network -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password mongo 
+  504  docker logs mongo
+  506  mkdir docker-trianing 
+  507  cd docker-trianing/
+  511  docker ps
+  514  docker logs mongo-express
+  515  docker logs mongo
+  516  docker logs mongo-express
+  521  history | grep docker
+

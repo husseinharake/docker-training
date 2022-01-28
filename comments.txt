@@ -1,0 +1,2 @@
+docker compose is used to simplify the process of running multiple containers and modifying configuration instead of docker CLI
+doker-compose creats a common network when its lunched so no need to create a network using docker.

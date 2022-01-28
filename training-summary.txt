@@ -1,0 +1,54 @@
+ 5. Main Docker Commands
+►  docker pull
+►  docker run
+►  docker ps
+►  docker run --options
+►  docker stop
+►  docker start
+►  docker ports, docker port mapping
+
+🚀  6. Debugging a Container
+►  docker logs
+►  docker exec -it
+
+🚀  7. Demo Project Overview - Docker in Practice (Nodejs App with MongoDB and MongoExpress UI)
+
+🚀  8. Developing with Containers 
+►  Pre-Requisites
+►  what we will do in this video
+►  1st part: The JavaScript App (HTML, JavaScript Frontend, Node.js Backend)
+►  2nd part: MongoDB and Mongo Express Set-Up with Docker
+►  Docker Network concept and demo
+►  3rd part: Connect Node Server with MongoDB container
+
+🚀  9. Docker Compose - Running multiple services
+►  What is Docker Compose?
+►  docker run commands VS docker compose
+►  How to use it? - Create the Docker Compose File (Demo)
+►  Docker Networking in Docker Compose
+
+🚀  10. Dockerfile - Building our own Docker Image
+►  What is a Dockerfile?
+►  How the Dockerfile commands map to the image environment
+►  Create the Dockerfile (Demo)
+►  Build an image out of the Dockerfile
+►  Start the Application to verify: 1) App starts successfully 2) App environment is configured correctly
+►  do improvement - copy only relevant files
+
+🚀  11. Private Docker Repository - Pushing our built Docker Image into a private Registry on AWS
+►  Create a Private Repository on AWS ECR
+►  Login to AWS (docker login)
+►  Image Naming concept in Docker registries
+►  docker tag to include the repository name in the image name
+►  Push the Docker Image to the Private Repository
+►  Make some changes to the Application, rebuild and push a new version to your AWS repository
+
+🚀  12. Deploy our containerized application
+
+🚀  13. Docker Volumes - Persist data in Docker
+►  When do we need Docker Volumes?
+►  What is Docker Volumes?
+►  3 Docker Volumes Types
+►  Docker Volumes in docker-compose file
+
+🚀  14. Volumes Demo - Configure persistence for our demo project
